@@ -105,15 +105,18 @@
             <!-- Education-->
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
+                    <h2 class="mb-5">Project</h2>
+                    <a href="javascript:openPop()">
+                        <div>POPUP</div>
+                    </a>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Colorado Boulder</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
-                            <div>Computer Science - Web Development Track</div>
+                            <h3 class="mb-0">번호판 인식 및 탐지 서비스</h3>
+                            <div class="subheading mb-3">DI-Solution</div>
+                            <div>차량 번호판 탐지 및 OCR 결과 도출 서비스</div>
                             <p>GPA: 3.23</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">2023.01 - 2023.06</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
@@ -125,6 +128,35 @@
                     </div>
                 </div>
             </section>
+
+            <div class="popup_layer" id="popup_layer" style="display: none;">
+                <div class="popup_box">
+                    <div style="height: 10px; width: 375px; float: top;">
+                        <a href="javascript:closePop();"><img src="assets/img/ic_close.svg" class="m_header-banner-close" width="30px" height="30px"></a>
+                    </div>
+                    <!--팝업 컨텐츠 영역-->
+                    <div class="popup_cont">
+                        <h5> POPUP TILTE</h5>
+                        <p>
+                            !!!!!!!!!!!!!!!!!!!!<br>
+                            ~~~~~~~~~~~~~~~~~
+                            @@@@@@@@@@@@@@@@@@@
+                            %%%%%%%%%%%%%%%%
+                            ^^^^^^^^^^^^^^^^
+                            &&&&&&&&&&&&&&
+                            *************
+                            ((((((((((((((((
+
+                        </p>
+
+                    </div>
+                    <!--팝업 버튼 영역-->
+                    <div class="popup_btn" style="float: bottom; margin-top: 200px;">
+                        <a href="javascript:closePop();">닫기</a>
+                    </div>
+                </div>
+            </div>
+
             <hr class="m-0" />
             <!-- Skills-->
             <section class="resume-section" id="skills">
@@ -229,3 +261,4 @@
         <script src="js/scripts.js"></script>
     </body>
 </html>
+
